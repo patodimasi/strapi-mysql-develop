@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reposicions",
+  "info": {
+    "singularName": "reposicion",
+    "pluralName": "reposicions",
+    "displayName": "Reposicion",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "idReposicion": {
+      "type": "uid"
+    },
+    "IdProductoCirculadoSolicitado": {
+      "type": "integer"
+    },
+    "IdProductoAsignadoResultante": {
+      "type": "integer"
+    },
+    "Cantidad": {
+      "type": "integer"
+    },
+    "IdEstadoReposicion": {
+      "type": "integer"
+    },
+    "CreatedB": {
+      "type": "string"
+    },
+    "CreatedA": {
+      "type": "datetime"
+    },
+    "UpdatedB": {
+      "type": "string"
+    },
+    "UpdatedA": {
+      "type": "datetime"
+    }
+  }
+}
